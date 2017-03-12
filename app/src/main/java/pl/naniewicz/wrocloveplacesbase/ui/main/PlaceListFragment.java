@@ -37,7 +37,6 @@ public class PlaceListFragment extends Fragment {
     }
 
     private void setupRecyclerView() {
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(mRecyclerView.getContext()));
         //todo add adapter
     }
 
