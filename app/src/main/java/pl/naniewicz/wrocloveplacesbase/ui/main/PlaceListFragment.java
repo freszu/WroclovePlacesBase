@@ -2,6 +2,7 @@ package pl.naniewicz.wrocloveplacesbase.ui.main;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -17,8 +18,8 @@ import pl.naniewicz.wrocloveplacesbase.model.Place;
 
 public class PlaceListFragment extends Fragment {
 
-    //todo bind swipe to refresh
-
+    @BindView(R.id.swipeRefreshLayout)
+    SwipeRefreshLayout mSwipeRefreshLayout;
     @BindView(R.id.recycler_view)
     RecyclerView mRecyclerView;
 
