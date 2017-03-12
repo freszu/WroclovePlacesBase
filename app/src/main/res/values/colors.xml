@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!--todo choose colors http://materialpalette.com/ or http://www.materialui.co/colors-->
+    <color name="primary">#000</color>
+    <color name="primary_dark">#000</color>
+    <color name="primary_light">#000</color>
+    <color name="accent">#000</color>
+
+    <color name="primary_text_">#de000000</color>
+    <color name="secondary_text">#8a000000</color>
+</resources>
