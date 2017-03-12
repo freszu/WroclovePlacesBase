@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ////todo bind butter knife
         setupToolbar();
-        setupDrawerContent();
+        setupNavigationListener();
         setupViewPager();
         //todo setup tabLayout with view pager
     }
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         //todo setup view pager
     }
 
-    private void setupDrawerContent() {
+    private void setupNavigationListener() {
         //todo setupDrawer
     }
 
